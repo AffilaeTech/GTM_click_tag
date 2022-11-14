@@ -326,18 +326,8 @@ var _ae = {
 
 setInWindow('_ae', _ae, false);
 
-// Script loading tests
-const onSuccess = () => {
-  //log('ae: Script loaded successfully.');
-  data.gtmOnSuccess();
-};
 
-const onFailure = () => {
-  //log('ae: Script load unsuccessful.');
-  data.gtmOnFailure();
-};
-
-injectScript('https://static.affilae.com/ae-v3.5.js', onSuccess, onFailure, 'AeTracker');
+injectScript('https://static.affilae.com/ae-v3.5.js', data.gtmOnSuccess, data.gtmOnFailure, 'AeTracker');
 
 
 ___WEB_PERMISSIONS___
