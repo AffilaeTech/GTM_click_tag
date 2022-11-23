@@ -33,8 +33,8 @@ Once the Tag fields completed with your Affilae PID you will need to create and 
 
 - When the page has loaded click on “**New**” to create a new Trigger.
 
-- Name your Trigger *ex. confirmation_page* (if you already have Triggers in your GTM you can follow the naming convention in place to keep a clean workspace).
+- Name your Trigger *ex. affilae_click* (if you already have Triggers in your GTM you can follow the naming convention in place to keep a clean workspace).
 
-- Click in the “**Trigger Configuration**” table then in the menu on the right hand side, select the trigger type best suited to your needs, for the click tag the “**Window Loaded**” or “**Page View**” triggers would be the easiest to use.
+- Click in the “**Trigger Configuration**” table then in the menu on the right hand side, select the trigger type best suited to your needs, for the click tag the “**Window Loaded**” or “**Page View**” triggers would be the easiest to use for all Windows or Pages.
 
 - Save your newly created Trigger and test your setup before publishing the Tag to your site.
